@@ -37,5 +37,27 @@ public class Prodotto {
     this.iva = iva;
 
  }
-    
+
+// generiamo un codice casuale 
+private int generateRandomCode() {
+    Random rand = new Random();
+    return rand.nextInt(1000);
+}
+
+ // inseriao il prezzo base
+ public double getBasePrice() {
+    return price;
+}
+
+// inseriamo il prezzo + iva
+public double getIvaPrice() {
+    return price + (price * iva / 100);
+}
+
+// aggiungiamo il codice casuale + nome
+public String getExtendedName() {
+    return code + " " + name;
+}
+
+
 }
