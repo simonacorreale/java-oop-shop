@@ -1,5 +1,6 @@
-package Main;
+package src.Main;
 // aggiungiamo il main per il run
+public class Main{
 public static void main(String[] args) {
 
     Prodotto prodottoExposed = new Prodotto ("Laptop", "Un potentissimo laptop da gaming", 1200.00, 24.0);
@@ -7,4 +8,5 @@ public static void main(String[] args) {
         System.out.println(("Nome prodotto: "+ prodottoExposed.getExtendedName()));
         System.out.println(("Prezzo base: " + prodottoExposed.getBasePrice() + "€"));
         System.out.println(("Prezzo con iva: " + prodottoExposed.getIvaPrice() +"€"));
+}
 }

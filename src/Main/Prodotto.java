@@ -1,4 +1,4 @@
-package Main;
+package src.Main;
 /* Esercizio di oggi Java Shop
 repo : java-oop-shop
 Nel progetto java-oop-shop, creare la classe Prodotto che gestisce i prodotti dello shop.
